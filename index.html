@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download YouTube Video</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            color: white;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .feature {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Download YouTube Video</h1>
+        <p class="text-center">Easily download YouTube videos in high quality with our service!</p>
+        <form action="/download" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="url">Enter video URL:</label>
+                <input type="text" id="url" name="url" class="form-control" placeholder="https://www.youtube.com/watch?v=example" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Download</button>
+        </form>
+        <div class="feature text-center mt-4">
+            <h3>Features of our service:</h3>
+            <ul class="list-unstyled">
+                <li>🚀 Fast and reliable downloads</li>
+                <li>🎥 High-quality video resolution</li>
+                <li>💻 Easy to use interface</li>
+                <li>🔒 Secure and private</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
